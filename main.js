@@ -6,6 +6,6 @@ app.use('/site', express.static('public'))
 //   res.send('Hello World!')
 // })
 
-app.listen(8080, function () {
+app.listen(80, function () {
   console.log('Example app listening on port 3000!')
 })
