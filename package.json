@@ -2,7 +2,7 @@
   "name": "sigadata",
   "version": "1.0.0",
   "description": "Thanks for downloading this theme!",
-  "main": "main.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
