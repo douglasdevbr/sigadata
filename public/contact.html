@@ -15,7 +15,16 @@
  
   </head>
   <body>
-		<header>		
+		<header>	
+			        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111015653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111015653-1');
+</script>		
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="navigation">
 				<div class="container">					
@@ -52,13 +61,13 @@
 		<div class="container">	
 			<div class="breadcrumb">							
 				<li><a href="index.html">Home</a></li>
-				<li>Contact</li>			
+				<li>Contato</li>			
 			</div>		
 		</div>	
 	</div>
 	
 	<div class="map">
-		<div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>
+		<div id="google-map" data-latitude="-23.5573321" data-longitude="-46.6603915"></div>
 	</div>
 	
 	<section id="contact-page">
@@ -74,22 +83,21 @@
                     <div id="errormessage"></div>
                     <form action="" method="post" role="form" class="contactForm">
                             <div class="form-group">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome" data-rule="minlen:4" data-msg="MInino 4 letras">
+                            </div>
+                            <div class="form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email" data-rule="email" data-msg="Insira um Email válido" />
                                     <div class="validation"></div>
                             </div>
                             <div class="form-group">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Titulo" data-rule="minlen:4" data-msg="Minimo 4 letras" />
                                     <div class="validation"></div>
                             </div>
                             <div class="form-group">
-                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Fale conosco" placeholder="Mensagem"></textarea>
                                     <div class="validation"></div>
                             </div>
-                            <div class="form-group">
-                                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                                    <div class="validation"></div>
-                            </div>
-                        <div class="text-center"><button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Submit Message</button></div>
+                        <div class="text-center"><button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Enviar Mensagem</button></div>
                     </form>                       
                 </div>
             </div><!--/.row-->
