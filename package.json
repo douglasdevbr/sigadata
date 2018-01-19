@@ -1,5 +1,5 @@
 {
-  "name": "sigadata",
+  "name": "SigaTrend",
   "version": "1.0.0",
   "description": "Thanks for downloading this theme!",
   "main": "server.js",
@@ -16,14 +16,14 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/douglasdevbr/sigadata.git"
+    "url": "git+https://github.com/douglasdevbr/SigaTrend.git"
   },
   "keywords": [
     "Siga",
     "Data"
   ],
   "bugs": {
-    "url": "https://github.com/douglasdevbr/sigadata/issues"
+    "url": "https://github.com/douglasdevbr/SigaTrend/issues"
   },
-  "homepage": "https://github.com/douglasdevbr/sigadata#readme"
+  "homepage": "https://github.com/douglasdevbr/SigaTrend#readme"
 }
