@@ -4,12 +4,26 @@
   "description": "Thanks for downloading this theme!",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "DOuglas",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
     "reactjs": "^1.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasdevbr/sigadata.git"
+  },
+  "keywords": [
+    "Siga",
+    "Data"
+  ],
+  "bugs": {
+    "url": "https://github.com/douglasdevbr/sigadata/issues"
+  },
+  "homepage": "https://github.com/douglasdevbr/sigadata#readme"
 }
